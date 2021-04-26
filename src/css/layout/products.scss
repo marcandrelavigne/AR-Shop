@@ -1,0 +1,29 @@
+.products {
+	padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product {
+	width: 100%;
+	background: #29333c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+	
+	@media screen and (min-width: 480px){
+		width: calc(50% - 1rem);
+	}
+	
+	@media screen and (min-width: 769px){
+		width: 32%;
+		width: calc(33.33% - 1.33rem);
+	}
+	
+	@media screen and (min-width: 1024px){
+		width: calc(25% - 1.5rem);
+	}
+	
+}
